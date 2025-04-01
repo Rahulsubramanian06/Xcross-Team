@@ -1,5 +1,5 @@
 .bg-color{
-  background-color: #eeeeee;
+  background-color: #EEEEEE;
 }
 /* section 1 */
 
@@ -36,16 +36,6 @@ form{
 .input_text_contact{
   width: 90%;
   background-color: #eeeeee;
-}
-
-input[type=text], select, textarea {
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-.no-resize {
-  resize: none !important;
 }
 .container {
   max-width: 1200px !important;
