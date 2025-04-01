@@ -7,8 +7,6 @@
   max-height: 272px;
 }
 
-
-
 .accordion-header .accordion-button::after {
   background-image: url("assets/plus\ \(2\)\ 2.png");
   transform: scale(1.5) !important;
@@ -22,6 +20,10 @@
     background-color: transparent !important;  
     box-shadow: none !important;              
     color: inherit !important;               
+}
+.accordion-item{
+  border-radius: 10px !important;
+  overflow: hidden;
 }
 .location_text{
   max-width: 200px;
@@ -56,24 +58,17 @@ input[type=text], select, textarea {
   text-decoration: none;
 }
 
-.img-hover{
-  position: absolute;
-display: none;
-  transform: translateX(17%);
- 
+
+/* new changes */
+.accordion{
+  --bs-accordion-border-color: none
 }
-.img-content{
-  margin-bottom: 5%;
+.grey_background{
+  background-color: #D9D9D9;
 }
-.img-content :hover .img-hover{
-  display: flex;
-  flex-direction: column;
-  bottom: 3%;
-  transform: translateX(6%);
-  width: 90%;
-  padding-top: 10%;
+.contact_form{
+  background-image: url("./assets/contact_background.png");
 }
-.cc{
-  max-width: 290px;
-  padding: 10%;
+::placeholder{
+  color: black;
 }
